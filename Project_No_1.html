@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project No 1</title>
+ 
+</head>
+<style>
+    header{
+
+        background-color: white;
+    display: flex;
+}
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.navimage{
+    width: 143px;
+    height: 20px;
+   margin: 20px 120px;
+}
+
+.item{
+    width: 20%;
+    flex-direction: row;
+    margin: auto;
+}
+#item2{
+   
+}
+.navbar{
+   
+}
+.listbar{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+.listbar a{
+    text-decoration: none;
+    margin: 0px 12px;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(196, 192, 192);
+}
+.navbtn{
+    background-color: #6dc77a;
+    border: 0px;
+    margin: 20px;
+    height: 40px;
+    border-radius: 30px;
+
+}
+.navbtn a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 20px;
+    color: white;
+}
+#container1{
+   
+   background-image: url(/Mini_Project/Project-1/friends.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   height: 740px;
+   margin: 0px
+}
+
+.featureItem{
+    margin: auto;
+
+}
+.fitem{
+    color: white;
+    margin: 0px;
+   
+    text-align: center;
+}
+.fitem h1{
+    margin-top: 0px;
+    padding-top: 80px;
+    font-size: 80px;
+    line-height: 5px;
+}
+.fitem p{
+    font-size: 30px;
+}
+.fitem img{
+    width: 6%;
+    margin-top: 55px;
+    margin-bottom: 110px;
+}
+#form{
+    margin-top: 20px;
+    height: 20px;
+}
+#form input{
+    margin-top: 40px;
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+}
+.btn{
+    padding: 15px;
+    width: 300px;
+    color: white;
+    background-color: #6dc77a;
+    border: none;
+}
+.topfeature{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 0px 0px;
+}
+.fpara{
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.udemy{
+    background-color: #6dc77a;
+    padding: 3px;
+}
+.con1{
+    background-color: white;
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 50px;
+   
+}
+.conitem1{
+    background-color: white;
+    /* border: 2px solid black; */
+    width: 30%;
+    flex-direction: row;
+    margin: auto;
+    padding: 0px 75px;
+}
+.conitem1 p,h3 {
+    text-align: center;
+}
+.imgclouple{
+    width: 100%;
+}
+
+.container2{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.con2{
+    margin: auto;
+    width: 40%;
+    padding-top: 100px;
+    /* border: solid black 2px; */
+}
+.con2 img{
+    padding-left: 60px;
+}
+.con2 h1{
+    font-size: 40px;
+    padding: 0px 50px;
+}
+.con2 p{
+    font-size: 20px;
+    padding: 0px 50px;
+}
+.container3{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.con3{
+    margin: auto;
+    width: 48%;
+    /* border: solid black 2px; */
+    padding-top: 100px;
+}
+.con3 img{
+    width: 90%;
+    /* height: 484px; */
+}
+.con3 h1{
+    font-size: 40px;
+    padding: 0px 50px;
+}
+.con3 p{
+    font-size: 20px;
+    padding: 0px 50px;
+}
+.container4{
+    margin-top: 10px;
+    display: flex;
+    height: 520px;
+    background-image: url(/Mini_Project/Project-1/darkdesk.png);
+    padding-top: 20px;
+}
+.con4{
+    width:80%;
+    margin: auto;
+    
+}
+.conn{
+    width: 40%;
+    padding-left: 500px;
+}
+.connn h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+.connn p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.btn4{
+    width: 20%;
+    margin: auto;
+    
+}
+.btn4 button{
+    margin: auto;
+    text-align: center;
+    height: 70px;
+    width: 250px;
+    background-color: #6dc77a;
+    border: none;
+}
+.btn4 button a{
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+}
+.btn4 button:hover{
+    background-color: #24be3b;
+}
+
+.container5{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.con51{
+    margin: auto;
+    width: 45%;
+    /* border: 2px solid black; */
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.con51 h1{
+    text-align: justify;
+    font-size: 40px;
+    padding: 0px 90px;
+    margin-top: 100px;
+
+}
+.con51 p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 90px;
+
+}
+
+.con52{
+    margin-top: 20px;
+    padding-right: 60px;
+    width: 48%;
+}
+.con52 .form h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.con52 .form input{
+    display: block;
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    margin-top: 4px;
+    border: none;
+}
+.con52 .form button{
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+    height: 50px;
+    width: 61%;
+    background-color:#6dc77a;
+    border: none;
+}
+.con52 .form button a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.con52 .form button:hover{
+    background-color: #24be3b;
+}
+.con52 .form p{
+    margin: auto;
+    padding-left: 126px;
+    padding-right: 126px;
+    text-align: justify;
+    margin-top: 20px;
+}
+footer{
+    background-image: url(/Mini_Project/Project-1/footerbg.png);
+    border: 2px solid black;
+    /* display: flex; */
+    height: 500px;
+    background-position: 50% 50%;
+}
+
+.con6{
+    /* border: 2px solid black; */
+    width: 33%;
+    height: 40%;
+    margin: auto;
+    margin-top: 0px;
+    display: inline-block;
+}
+#con61 img{
+    width: 55px;
+    height: 48px;
+    padding: 76px 200px;
+    margin-top: 0px;
+}
+#con62 img{
+    height: 55px;
+    width: 28px;
+    padding: 76px 200px;
+    margin-top: 0px;
+}
+#con63 img{
+    height: 52px;
+    width: 52px;
+    padding: 76px 200px;
+    margin-top: 0px;
+
+}
+.con6:hover{
+    background-color: black;
+    opacity: 60%;
+}
+footer p{
+    margin: auto;
+}
+.logo-light{
+    width: 143px;
+    height: 20px;    
+    margin: 70px 612px;
+    margin-bottom: 0px;
+    float: left;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+</style>
+<body>
+    <header>
+        <div class="container"></div>
+            <div class="item" id="item1">
+                <img class="navimage" src="/Mini_Project/Project-1/logo-dark.png" alt="">
+            </div>
+            <div class="item" id="item2">
+                <nav class="navbar">
+                    <ul class="navul">
+                        <li class="listbar">
+                            <a href="#">Home</a>
+                        </li>
+   
+                        <li class="listbar">
+                            <a href="#">Features</a>
+                        </li>
+                        <li class="listbar">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="listbar">
+                            <a href="#">Signup</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="item" id="item3">
+                <button class="navbtn"><a href="#">Get Started</a></button>
+            </div>
+        </div>
+    </header>
+    <section >
+        <div id="container1">
+            <div class="featureItem">
+                <div class="fitem">
+                    <h1> Awesome looks so good</h1>
+                    <p>Awesome is the landing page you had when you started</p>
+                </div>
+                <div class="fitem">
+                    <img src="/Mini_Project/Project-1/play.png" alt="">
+                </div>
+                <div class="fitem">
+                    SIGN UP FOR A FREE 30 DAY TRIAL
+                </div>
+                <div class="fitem" id="form">
+                    <form action="#">
+                        <input type="text" placeholder="Name">
+                        <input  type="email" placeholder="Email">
+                        <button class="btn">Start Free Trail</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <section>
+        <div class="topfeature">
+            <p class="fpara">awesome is an amazing landing page brought to you on everyone's favorite learning platform, <span class="udemy">Udemy.</span> Imagine what is next.</p>
+            </div>
+
+            <div class="con1">
+                <div class="conitem1">
+                    <img src="/Mini_Project/Project-1/couple.jpg" alt="" class="imgclouple">
+                    <h3>Mobile First, Always</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, dolores qui. Suscipit, nostrum possimus laudantium quaerat nulla at quis in, natus accusamus laborum ad. Debitis, accusamus est. Quo, quisquam aperiam? </p>
+                </div>
+
+                <div class="conitem1">
+                    <img src="/Mini_Project/Project-1/guyrunning.jpg" alt="" class="imgclouple">
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni minus voluptates doloribus repellat quae quidem aut ratione quod, quisquam sunt fugiat aperiam beatae natus blanditiis excepturi architecto in dolorum soluta.</p>
+                </div>
+
+                <div class="conitem1">
+                    <img src="/Mini_Project/Project-1/girlphone.jpg" alt="" class="imgclouple">
+                    <h3>Socially Social</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni minus voluptates doloribus repellat quae quidem aut ratione quod, quisquam sunt fugiat aperiam beatae natus blanditiis excepturi architecto in dolorum soluta.</p>
+                </div>
+            </div> 
+    </section>
+    <section>
+        <div class="container2">
+            <div class="con2">
+                <img src="/Mini_Project/Project-1/apple.png" alt="">
+            </div>
+            <div class="con2">
+                <h1>Yes, it even looks good on an iPhone</h1>
+                <p>
+                    It is important to make sure that you are coding for responsive design. We want all of our work to function properly on all devices. This is the awesome way.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container3">
+            <div class="con3">
+                <h1>How about an iPad? Yup that too!</h1>
+                <p>It doesn't matter what device you are on. Awesome will always look awesome. Its in the name after all.</p>
+            </div>
+            <div class="con3">
+                <img src="/Mini_Project/Project-1/ipad.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container4">
+            <div class="con4">
+                <div class="connn">
+                    <h1>What are you waiting for?</h1>
+                <p>Get started today and try for free - No credit card required</p>
+                </div>
+                <div class="btn4">
+                    <button><a href="#">Try Today</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container5">
+            <div class="con51">
+                <h1>Hear what our fans have to say about awesome</h1>
+                <p>"I learned how to build this website in an amazing online course on Udemy. I couldn't be happier!" <br> <br> <strong>- John Smith</strong> </p>
+                
+            </div>
+            <div class="con52">
+                <div class="form">
+                    <h1>SIGN UP FOR A FREE 30 DAY TRIAL</h1>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <button><a href="#">Start Free Trail</a></button>
+                    <p>* We don’t share your personal info with anyone. Check out our <a href="#">Privacy Policy</a> for more information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            
+        <div id="con61" class="con6">
+            <div>
+
+                <a href="#"><img src="/Mini_Project/Project-1/twitter.png" alt=""></a>   
+            </div>
+        </div>
+        <div id="con62" class="con6">
+            <div>
+
+                <a href="#"><img src="/Mini_Project/Project-1/facebook.png" alt=""></a>
+            </div>
+        </div>
+        <div id="con63" class="con6">
+            <div>
+
+                <a href="#"><img src="/Mini_Project/Project-1/instagram.png" alt=""></a>
+            </div>
+        </div>
+        <img class="logo-light" src="/Mini_Project/Project-1/logo-light.png" alt="">
+        <p class="copyright"> &copy; Copyright 2015 Awesome-Made with &hearts; in New York</p>
+    </footer>
+</body>
+</html>
